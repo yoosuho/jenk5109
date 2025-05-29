@@ -38,7 +38,7 @@ external-links:    # input only your own url slug. The icons with missing entrie
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 
   instragram:       # https://instagram.com/{your url slug} 
-  youtube:  @jenk5109    # https://www.youtube.com/@jenk5109 
+  youtube:  jenk5109    # https://www.youtube.com/@jenk5109 
   discord:            # https://discord.com/users/{your url slug} 
   bluesky:           # https://bsky.app/profile/{your url slug} 
   
