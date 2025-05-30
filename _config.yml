@@ -13,7 +13,8 @@ title: John Doe's Portfolio # This is what shows up in the tab of the browser
 
 # Hero Section
 name: SuHo Yu
-headline: >- Where Systems Engineering Meets the Sky
+headline: >-
+Where Systems Engineering Meets the Sky
 Bridging autonomous aerial systems, robotics, and electric propulsion through hands-on design and flight-tested research.
 description: >- # dont remove this line. this will ignore all new lines until the next section
 Aerospace & robotics systems engineer specializing in electric propulsion, UAV/UAM integration, and flight control architecture.
