@@ -1,180 +1,107 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-
 # Main Page Setup
-
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
-
-
+title: SuHo Yu's Portfolio
 
 # Hero Section
 name: SuHo Yu
 headline: >-
-Where Systems Engineering Meets the Sky
-Bridging autonomous aerial systems, robotics, and electric propulsion through hands-on design and flight-tested research.
-description: >- # dont remove this line. this will ignore all new lines until the next section
-Aerospace & robotics systems engineer specializing in electric propulsion, UAV/UAM integration, and flight control architecture.
-Experienced in full-stack platform development—from CAD modeling and structural fabrication to high-voltage battery integration and autonomous flight testing.
-Bridging hardware and autonomy with proven results in government-funded eVTOL and aerial mobility projects.
+  Where Systems Engineering Meets the Sky – Bridging autonomous aerial systems, robotics, and electric propulsion through hands-on design and flight-tested research.
+description: >-
+  Aerospace & robotics systems engineer specializing in electric propulsion, UAV/UAM integration, and flight control architecture.
+  Experienced in full-stack platform development—from CAD modeling and structural fabrication to high-voltage battery integration and autonomous flight testing.
+  Bridging hardware and autonomy with proven results in government-funded eVTOL and aerial mobility projects.
 
-# Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/me.jpeg
 
-
-# Link your resume
-# You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
 resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
 
+external-links:
+  linkedin: suho-yu
+  github: yoosuho
+  youtube: jenk5109
 
-# Set up external links - this will show up as small icons next to your name.
-
-external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: suho-yu/    # https://www.linkedin.com/in/suho-yu/ 
-  github: yoosuho    # https://github.com/{your url slug} 
-# stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-# medium:            # https://medium.com/@{your url slug} 
-# x-twitter:   # https://x.com/{your url slug} 
-# threads:            # https://threads.net/@{your url slug} 
-# instragram:       # https://instagram.com/{your url slug} 
-  youtube:  jenk5109    # https://www.youtube.com/@jenk5109 
-# discord:            # https://discord.com/users/{your url slug} 
-# bluesky:           # https://bsky.app/profile/{your url slug} 
-  
-
-# Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-- category: 3D Modeling
-  tools:
-    - Fusion 360 (Autodesk)
-    - Solidworks
-    - CATIA (Dassault Systèmes)
-    - Onshape
-    - Blender (for visualization or animation)
+  - category: 3D Modeling
+    tools:
+      - Fusion 360 (Autodesk)
+      - Solidworks
+      - CATIA (Dassault Systèmes)
+      - Onshape
+      - Blender (for visualization or animation)
 
-- category: Prototyping / Manufacturing
-  tools:
-    - CNC Milling (setup, toolpath generation, and operation)
-    - CAM Programming (Fusion CAM, Mastercam)
-    - Manual Machining (lathe, drill press, cutting, grinding)
-    - TIG Welding
-    - FDM 3D Printing
-    - Laser Cutting
-    - Metal 3D Printing (DMLS or similar)
-    - Custom Battery Pack Fabrication
-    - Hand-built Frame Assembly (no jig, full alignment by hand)
-    - Full-stack Mechanical Fabrication (from raw metal to functional assembly)
-    - Arduino / Raspberry Pi
+  - category: Prototyping / Manufacturing
+    tools:
+      - CNC Milling (setup, toolpath generation, and operation)
+      - CAM Programming (Fusion CAM, Mastercam)
+      - Manual Machining (lathe, drill press, cutting, grinding)
+      - TIG Welding
+      - FDM 3D Printing
+      - Laser Cutting
+      - Metal 3D Printing (DMLS or similar)
+      - Custom Battery Pack Fabrication
+      - Hand-built Frame Assembly (no jig, full alignment by hand)
+      - Full-stack Mechanical Fabrication (from raw metal to functional assembly)
+      - Arduino / Raspberry Pi
 
-- category: Battery & Power Systems
-  tools:
-    - Custom BMS Development (STM32-based)
-    - CAN / UAVCAN Communication Integration
-    - High Voltage Battery Architecture (12S–14S)
-    - Energy System Compliance (per AC 21.17-4)
-    - Thermal Management (air-cooled + passive strategies)
+  - category: Battery & Power Systems
+    tools:
+      - Custom BMS Development (STM32-based)
+      - CAN / UAVCAN Communication Integration
+      - High Voltage Battery Architecture (12S–14S)
+      - Energy System Compliance (per AC 21.17-4)
+      - Thermal Management (air-cooled + passive strategies)
 
-- category: Embedded Systems / Control
-  tools:
-    - Pixhawk / Cube Flight Controllers
-    - Mission Planner / QGroundControl
-    - ESC Tuning (BLHeli, Hobbywing, etc.)
-    - RTOS (basic integration)
-    - PID Tuning / Sensor Fusion (IMU, GPS)
-    - Serial & CAN Bus Debugging
+  - category: Embedded Systems / Control
+    tools:
+      - Pixhawk / Cube Flight Controllers
+      - Mission Planner / QGroundControl
+      - ESC Tuning (BLHeli, Hobbywing, etc.)
+      - RTOS (basic integration)
+      - PID Tuning / Sensor Fusion (IMU, GPS)
+      - Serial & CAN Bus Debugging
 
-- category: PCB Design / Electronics
-  tools:
-    - KiCad
-    - Eagle
-    - Basic STM32 Firmware Development
-    - Breadboarding for Circuit Prototyping
+  - category: PCB Design / Electronics
+    tools:
+      - KiCad
+      - Eagle
+      - Basic STM32 Firmware Development
+      - Breadboarding for Circuit Prototyping
 
-- category: System Design / Architecture
-  tools:
-    - Model-Based Design (Simulink-level)
-    - Fault-Tolerant Control (motor failure resilience)
-    - System Integration (propulsion, frame, BMS, ESC, avionics)
-    - DO-178C Compliance Workflow (LDRA-based static/dynamic validation)
-    - Vibration Analysis (real-world battery module & drone)
+  - category: System Design / Architecture
+    tools:
+      - Model-Based Design (Simulink-level)
+      - Fault-Tolerant Control (motor failure resilience)
+      - System Integration (propulsion, frame, BMS, ESC, avionics)
+      - DO-178C Compliance Workflow (LDRA-based static/dynamic validation)
+      - Vibration Analysis (real-world battery module & drone)
 
-- category: Standards / Safety / Certification
-  tools:
-    - Root Cause Analysis (5 Whys, Fishbone Diagram)
-    - FMEA (DFMEA, PFMEA)
-    - AC 21.17-4 Certification Planning (Energy System CCL)
-    - Safety Tether Test Protocols
+  - category: Standards / Safety / Certification
+    tools:
+      - Root Cause Analysis (5 Whys, Fishbone Diagram)
+      - FMEA (DFMEA, PFMEA)
+      - AC 21.17-4 Certification Planning (Energy System CCL)
+      - Safety Tether Test Protocols
 
-- category: Soft Skills / Communication
-  tools:
-    - Technical Presentation (FTC, Government R&D meetings)
-    - Cross-functional Team Leadership
-    - Engineering Documentation (specs, test reports, checklists)
-    - Public-facing Technical Storytelling (YouTube Engineering Vlog)
+  - category: Soft Skills / Communication
+    tools:
+      - Technical Presentation (FTC, Government R&D meetings)
+      - Cross-functional Team Leadership
+      - Engineering Documentation (specs, test reports, checklists)
+      - Public-facing Technical Storytelling (YouTube Engineering Vlog)
 
-# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+formspree-key: https://formspree.io/f/{8-digit-key}
 
-
-
-# Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
+colors:
   text: "#1a1c20"
   border: "#ddd"
   link: "#4a76ee"
   highlight: "#0c0cf2"
   background: "#ffffff"
   light_background: "#f3f5fb"
-
-# A few examples. 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-  mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-  pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
-
-
-
-
-
-
-#########################################################################################################
-# Build settings for the site. Editing the below may cause the site to malfunction.
 
 collections:
   projects:
     output: true
     permalink: /projects/:path/
-
 
 markdown: kramdown
 highlighter: rouge
@@ -194,24 +121,3 @@ plugins:
 
 include:
   - _projects
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
